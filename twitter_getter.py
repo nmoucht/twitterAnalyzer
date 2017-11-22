@@ -74,17 +74,17 @@ def main():
             continue
 def findTypeOfInter(userCount, otherCount):
     typeUser=int(userCount)
-    if(typeUser>=8000):
+    if(typeUser>=10000):
         typeUser=2
-    elif(typeUser>=3000):
+    elif(typeUser>=5000):
         typeUser=1
     else:
         typeUser=0
     typeOther=int(otherCount)
 
-    if(typeOther>=8000):
+    if(typeOther>=10000):
         typeOther=2
-    elif(typeOther>=3000):
+    elif(typeOther>=5000):
         typeOther=1
     else:
         typeOther=0
